@@ -1,0 +1,178 @@
+
+body{
+  background-image: url(../img/johannes-mandle-vKLC7xLxZyo-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(100, 97, 97);
+  text-align: center;
+}
+h1{
+  display: inline-block;
+  font-size: 3em;
+  text-align: center;
+}
+h1:hover{
+  font-size: 4em;
+  transition: all 0.5s;
+}
+.temperature{
+  font-size: 3rem;
+}
+
+.main{
+  background-color: rgba(250, 235, 215, 0.432);
+  display: grid;
+}
+.location{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locate{
+  background-color: rgba(250, 235, 215, 0.107);;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  outline: none;
+  text-decoration: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.locate:hover{
+  background-color: rgba(250, 235, 215, 0.599);;
+}
+.grid-container{
+  height: 800px;
+  width: 800px;
+  color: aliceblue;
+  background-color: rgba(61, 65, 69, 0.868);
+  display: inline-grid;
+  grid-template: 200px 200px 200px 200px / 200px 200px 200px 200px;
+  border-radius: 20px;
+  opacity: 0.7;
+  padding-top: 100px;
+  row-gap: 10px;
+  justify-content: space-evenly;
+}
+.grid-container:hover{
+  height: 900px;
+  width: 900px;
+  transition: all 0.5s;
+}
+.item1{
+  grid-column: 1 / 5;
+}
+.bi:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item2{
+  grid-column: 1 / 3;
+}
+.item2 img{
+  height: 50px;
+  width: 50px;
+}
+.item2 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item3{
+  grid-column: 3 / 5 ;
+}
+.item3 img{
+  height: 50px;
+  width: 50px;
+}
+.item3 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item4{
+  grid-column: 1 / 2;
+}
+.item4 img{
+  height: 50px;
+  width: 50px;
+}
+.item4 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item5{
+  grid-column: 2 / 3;
+}
+.item5 img{
+  height: 50px;
+  width: 50px;
+}
+.item5 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item6{
+grid-column: 3 / 4;
+}
+.item6 img{
+  height: 50px;
+  width: 50px;
+}
+.item6 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item7{
+  grid-column: 4 / 5;
+}
+.item7 img{
+  height: 50px;
+  width: 50px;
+}
+.item7 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item8{
+  grid-column: 2 / 3;
+}
+.item8 img{
+  height: 50px;
+  width: 50px;
+}
+.item8 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+.item9{
+  grid-column: 3 / 4;
+}
+.item9 img{
+  height: 50px;
+  width: 50px;
+}
+.item9 img:hover{
+  width: 80px;
+  height: 80px;
+  transition: all 0.5s;
+}
+
+footer a{
+  color: aliceblue;
+  text-decoration: none;
+}
+footer img:hover{
+  height: 80px;
+  transition: all 0.5s;
+}
